@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Design tokens. Change the palette here and the whole site follows.
+   brand  = soft teal / mint
+   accent = warm peach
+   --------------------------------------------------------------------------- */
+@theme {
+  --color-brand-50: #f0fdfa;
+  --color-brand-100: #ccfbf1;
+  --color-brand-200: #99f6e4;
+  --color-brand-300: #5eead4;
+  --color-brand-400: #2dd4bf;
+  --color-brand-500: #14b8a6;
+  --color-brand-600: #0d9488;
+  --color-brand-700: #0f766e;
+  --color-brand-800: #115e59;
+  --color-brand-900: #134e4a;
+  --color-brand-950: #042f2e;
+
+  --color-accent-50: #fff7f1;
+  --color-accent-100: #ffeadb;
+  --color-accent-200: #fed3b6;
+  --color-accent-300: #fcb88b;
+  --color-accent-400: #f99f63;
+  --color-accent-500: #f3823c;
+  --color-accent-600: #c2410c;
+  --color-accent-700: #9a3412;
+
+  --color-ink: #0f172a;
+  --color-muted: #475569;
+
+  --font-sans: var(--font-jakarta), var(--font-kannada), ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-soft: 0 1px 2px rgb(15 118 110 / 0.04), 0 8px 24px -6px rgb(15 118 110 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(15 118 110 / 0.06), 0 18px 40px -12px rgb(15 118 110 / 0.25);
+
+  --animate-marquee: marquee 30s linear infinite;
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+  body {
+    background: #fff;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  /* Kannada script needs extra vertical room for its vowel signs. */
+  :lang(kn) body { line-height: 1.75; }
+  :lang(kn) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0; }
+
+  :focus-visible {
+    outline: 3px solid var(--color-brand-500);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  ::selection { background: var(--color-brand-200); }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+  .section-y {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold tracking-wide text-brand-800 uppercase ring-1 ring-brand-100;
+  }
+  :lang(kn) .eyebrow { @apply normal-case text-sm; }
+  .card {
+    @apply rounded-3xl bg-white shadow-soft ring-1 ring-slate-900/5;
+  }
+  .prose-clinic p { @apply mb-4 leading-relaxed text-muted; }
+  .prose-clinic h2 { @apply mt-8 mb-3 text-xl font-bold text-ink sm:text-2xl; }
+  .prose-clinic ul { @apply mb-4 list-disc space-y-2 pl-5 text-muted marker:text-brand-500; }
+}

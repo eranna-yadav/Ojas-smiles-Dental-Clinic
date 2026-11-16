@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Article cover: root canal">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D5F5EE"/><stop offset="1" stop-color="#8FDCCB"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<circle cx="390.9468539844662" cy="269.1249191640252" r="216" fill="#fff" opacity=".35"/>
+<circle cx="1021.4572631197146" cy="484.10646301558927" r="283.5" fill="#fff" opacity=".25"/>
+<g transform="translate(525.75 211.275) scale(1.485)"><path d="M50 10C30 10 20 20 20 38c0 17 8 24 10 42 2 12 8 15 11 5 3-11 5-19 9-19s6 8 9 19c3 10 9 7 11-5 2-18 10-25 10-42C80 20 70 10 50 10Z" fill="#fff" stroke="#115E59" stroke-opacity=".5" stroke-width="3"/></g>
+<text x="50%" y="419.175" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#115E59">Article cover: root canal</text>
+<text x="50%" y="464.175" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="21" fill="#115E59" opacity=".7">TODO: replace with real photo</text>
+</svg>

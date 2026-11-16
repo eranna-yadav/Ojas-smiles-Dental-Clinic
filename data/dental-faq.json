@@ -1,0 +1,163 @@
+{
+  "_readme": "Chatbot knowledge base. Each entry is matched by keywords (lower-case; English, Kannada and Kannada-in-English all work). Answers may use {phone}, {address}, {hours}, {clinic} which are filled from config/clinic.ts. 'actions' adds buttons: call, whatsapp, directions, book, services, emergency.",
+  "entries": [
+    {
+      "id": "timings",
+      "keywords": ["timing", "timings", "time", "hours", "open", "close", "closing", "today", "sunday", "evening", "night", "when", "samaya", "ಸಮಯ", "ತೆರೆದ", "ಮುಚ್ಚು", "ಯಾವಾಗ", "ಭಾನುವಾರ", "ಸಂಜೆ"],
+      "answer": {
+        "en": "We're open every day. Timings: {hours}. Evening slots are available till 9 PM.",
+        "kn": "ನಾವು ಪ್ರತಿದಿನ ತೆರೆದಿರುತ್ತೇವೆ. ಸಮಯ: {hours}. ರಾತ್ರಿ 9 ರವರೆಗೆ ಸಂಜೆಯ ಸಮಯ ಲಭ್ಯ."
+      },
+      "actions": ["book", "call"]
+    },
+    {
+      "id": "location",
+      "keywords": ["location", "address", "where", "map", "directions", "route", "reach", "landmark", "mg road", "parking", "yelli", "ವಿಳಾಸ", "ಎಲ್ಲಿ", "ಸ್ಥಳ", "ದಾರಿ", "ನಕ್ಷೆ"],
+      "answer": {
+        "en": "We're at {address}. Landmark: beside Neha's Saloon and Academy on MG Road.",
+        "kn": "ನಮ್ಮ ವಿಳಾಸ: {address}. ಗುರುತು: ಎಂ.ಜಿ. ರಸ್ತೆಯಲ್ಲಿ ನೇಹಾಸ್ ಸಲೂನ್ ಮತ್ತು ಅಕಾಡೆಮಿ ಪಕ್ಕ."
+      },
+      "actions": ["directions", "call"]
+    },
+    {
+      "id": "services",
+      "keywords": ["service", "services", "treatment", "treatments", "what do you do", "offer", "chikitse", "ಚಿಕಿತ್ಸೆ", "ಸೇವೆ"],
+      "answer": {
+        "en": "We offer check-ups & cleaning, fillings, root canal treatment, extractions & wisdom teeth, implants, crowns & bridges, dentures, whitening, braces & aligners, smile makeovers, gum treatment, kids' dentistry and emergency care.",
+        "kn": "ತಪಾಸಣೆ ಮತ್ತು ಸ್ವಚ್ಛತೆ, ಫಿಲ್ಲಿಂಗ್, ರೂಟ್ ಕೆನಾಲ್, ಹಲ್ಲು ತೆಗೆಯುವಿಕೆ, ಇಂಪ್ಲಾಂಟ್, ಕ್ರೌನ್ ಮತ್ತು ಬ್ರಿಡ್ಜ್, ದಂತಪಂಕ್ತಿ, ಬಿಳುಪು, ಬ್ರೇಸಸ್ ಮತ್ತು ಅಲೈನರ್, ಸ್ಮೈಲ್ ಮೇಕ್‌ಓವರ್, ವಸಡು ಚಿಕಿತ್ಸೆ, ಮಕ್ಕಳ ಚಿಕಿತ್ಸೆ ಮತ್ತು ತುರ್ತು ಚಿಕಿತ್ಸೆ ಲಭ್ಯ."
+      },
+      "actions": ["services", "book"]
+    },
+    {
+      "id": "emergency",
+      "keywords": ["emergency", "urgent", "pain", "severe", "swelling", "swollen", "broken", "knocked", "bleeding", "toothache", "tooth ache", "novu", "ತುರ್ತು", "ನೋವು", "ಊತ", "ರಕ್ತ", "ಮುರಿ"],
+      "answer": {
+        "en": "Sorry you're in pain. Please call us now on {phone} so we can see you as soon as possible. If you have severe swelling with fever or trouble breathing or swallowing, go to the nearest hospital emergency.",
+        "kn": "ನೋವಿಗೆ ಕ್ಷಮಿಸಿ. ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ನೋಡಲು ದಯವಿಟ್ಟು ಈಗಲೇ {phone} ಗೆ ಕರೆ ಮಾಡಿ. ಜ್ವರದೊಂದಿಗೆ ತೀವ್ರ ಊತ ಅಥವಾ ಉಸಿರಾಟ/ನುಂಗಲು ತೊಂದರೆ ಇದ್ದರೆ, ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆ ತುರ್ತು ವಿಭಾಗಕ್ಕೆ ಹೋಗಿ."
+      },
+      "actions": ["call", "whatsapp"]
+    },
+    {
+      "id": "book",
+      "keywords": ["book", "booking", "appointment", "slot", "visit", "consult", "consultation", "reserve", "ಬುಕ್", "ಅಪಾಯಿಂಟ್", "ಭೇಟಿ"],
+      "answer": {
+        "en": "Happy to help! Fill in the short booking form and we'll confirm your appointment on WhatsApp. You can also call {phone}.",
+        "kn": "ಸಂತೋಷದಿಂದ! ಸಣ್ಣ ಬುಕಿಂಗ್ ಫಾರ್ಮ್ ತುಂಬಿ, ವಾಟ್ಸಾಪ್‌ನಲ್ಲಿ ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಖಚಿತಪಡಿಸುತ್ತೇವೆ. {phone} ಗೆ ಕರೆ ಕೂಡ ಮಾಡಬಹುದು."
+      },
+      "actions": ["book", "call"]
+    },
+    {
+      "id": "cost",
+      "keywords": ["cost", "price", "fee", "fees", "charge", "charges", "how much", "rate", "expensive", "cheap", "affordable", "estimate", "bele", "ದರ", "ಬೆಲೆ", "ಶುಲ್ಕ", "ಖರ್ಚು", "ಎಷ್ಟು"],
+      "answer": {
+        "en": "Cost depends on your diagnosis and the treatment chosen. After a check-up, the doctor gives you a clear estimate before starting — no hidden charges. For a rough idea, message us on WhatsApp.",
+        "kn": "ಖರ್ಚು ತಪಾಸಣೆ ಮತ್ತು ಆಯ್ಕೆ ಮಾಡುವ ಚಿಕಿತ್ಸೆಯ ಮೇಲೆ ಅವಲಂಬಿತ. ತಪಾಸಣೆಯ ನಂತರ ಚಿಕಿತ್ಸೆ ಆರಂಭಿಸುವ ಮೊದಲೇ ಸ್ಪಷ್ಟ ಅಂದಾಜು ನೀಡುತ್ತೇವೆ — ಗುಪ್ತ ಶುಲ್ಕವಿಲ್ಲ. ಅಂದಾಜಿಗಾಗಿ ವಾಟ್ಸಾಪ್ ಮಾಡಿ."
+      },
+      "actions": ["whatsapp", "book"]
+    },
+    {
+      "id": "rct",
+      "keywords": ["root canal", "rct", "nerve", "ರೂಟ್ ಕೆನಾಲ್", "ನರ"],
+      "answer": {
+        "en": "Root canal treatment saves an infected tooth and stops the pain. With local anaesthesia it feels similar to a filling and usually takes 1–3 visits.",
+        "kn": "ರೂಟ್ ಕೆನಾಲ್ ಚಿಕಿತ್ಸೆ ಸೋಂಕಿತ ಹಲ್ಲನ್ನು ಉಳಿಸಿ ನೋವು ನಿಲ್ಲಿಸುತ್ತದೆ. ಸ್ಥಳೀಯ ಅರಿವಳಿಕೆಯಿಂದ ಫಿಲ್ಲಿಂಗ್‌ನಂತೆಯೇ ಅನಿಸುತ್ತದೆ; ಸಾಮಾನ್ಯವಾಗಿ 1–3 ಭೇಟಿ."
+      },
+      "actions": ["book"],
+      "link": "root-canal-treatment"
+    },
+    {
+      "id": "implants",
+      "keywords": ["implant", "implants", "missing tooth", "missing teeth", "replace tooth", "ಇಂಪ್ಲಾಂಟ್", "ಕಳೆದ ಹಲ್ಲು"],
+      "answer": {
+        "en": "Dental implants are a permanent, natural-looking way to replace missing teeth. We check your bone and health first to see if they suit you.",
+        "kn": "ಡೆಂಟಲ್ ಇಂಪ್ಲಾಂಟ್ ಕಳೆದುಹೋದ ಹಲ್ಲುಗಳಿಗೆ ಶಾಶ್ವತ, ನೈಸರ್ಗಿಕ ಬದಲಿ. ನಿಮಗೆ ಸೂಕ್ತವೇ ಎಂದು ಮೊದಲು ಮೂಳೆ ಮತ್ತು ಆರೋಗ್ಯ ಪರೀಕ್ಷಿಸುತ್ತೇವೆ."
+      },
+      "actions": ["book"],
+      "link": "dental-implants"
+    },
+    {
+      "id": "braces",
+      "keywords": ["braces", "aligner", "aligners", "invisalign", "crooked", "straighten", "gap", "ಬ್ರೇಸ", "ಅಲೈನರ್", "ವಕ್ರ"],
+      "answer": {
+        "en": "We offer braces and clear aligners for children and adults. Treatment usually takes 12–24 months depending on the case.",
+        "kn": "ಮಕ್ಕಳು ಮತ್ತು ವಯಸ್ಕರಿಗೆ ಬ್ರೇಸಸ್ ಮತ್ತು ಕ್ಲಿಯರ್ ಅಲೈನರ್ ಲಭ್ಯ. ಪ್ರಕರಣದ ಆಧಾರದ ಮೇಲೆ ಸಾಮಾನ್ಯವಾಗಿ 12–24 ತಿಂಗಳು."
+      },
+      "actions": ["book"],
+      "link": "braces-aligners"
+    },
+    {
+      "id": "whitening",
+      "keywords": ["whitening", "white", "yellow", "stain", "stains", "bleach", "ಬಿಳುಪು", "ಹಳದಿ", "ಕಲೆ"],
+      "answer": {
+        "en": "Professional whitening safely lightens stains from tea, coffee and age. We check your teeth first to make sure it's right for you.",
+        "kn": "ವೃತ್ತಿಪರ ಬಿಳುಪು ಚಹಾ, ಕಾಫಿ ಮತ್ತು ವಯಸ್ಸಿನ ಕಲೆಗಳನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ತಿಳಿಗೊಳಿಸುತ್ತದೆ. ಮೊದಲು ಹಲ್ಲುಗಳನ್ನು ಪರೀಕ್ಷಿಸುತ್ತೇವೆ."
+      },
+      "actions": ["book"],
+      "link": "teeth-whitening"
+    },
+    {
+      "id": "kids",
+      "keywords": ["kid", "kids", "child", "children", "baby", "son", "daughter", "milk teeth", "makkalu", "ಮಕ್ಕಳ", "ಮಗು", "ಹಾಲು ಹಲ್ಲು"],
+      "answer": {
+        "en": "Yes, we treat children! First visit is recommended by age 1. We're gentle and patient so kids feel safe.",
+        "kn": "ಹೌದು, ಮಕ್ಕಳಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡುತ್ತೇವೆ! 1 ವರ್ಷದೊಳಗೆ ಮೊದಲ ಭೇಟಿ ಶಿಫಾರಸು. ಮಕ್ಕಳು ಸುರಕ್ಷಿತವೆನಿಸುವಂತೆ ಸೌಮ್ಯವಾಗಿ ನೋಡಿಕೊಳ್ಳುತ್ತೇವೆ."
+      },
+      "actions": ["book"],
+      "link": "kids-dentistry"
+    },
+    {
+      "id": "pain-treatment",
+      "keywords": ["painful", "hurt", "scared", "fear", "afraid", "anxious", "painless", "ಭಯ", "ನೋವಾಗುತ್ತ"],
+      "answer": {
+        "en": "Most treatments are done under local anaesthesia, so you'll feel little to no pain. We explain each step and can pause anytime.",
+        "kn": "ಹೆಚ್ಚಿನ ಚಿಕಿತ್ಸೆಗಳು ಸ್ಥಳೀಯ ಅರಿವಳಿಕೆಯೊಂದಿಗೆ ನಡೆಯುತ್ತವೆ, ನೋವು ಬಹಳ ಕಡಿಮೆ. ಪ್ರತಿ ಹಂತ ವಿವರಿಸುತ್ತೇವೆ, ಯಾವಾಗ ಬೇಕಾದರೂ ನಿಲ್ಲಿಸಬಹುದು."
+      },
+      "actions": ["book"]
+    },
+    {
+      "id": "payment",
+      "keywords": ["payment", "pay", "upi", "card", "cash", "gpay", "phonepe", "emi", "ಪಾವತಿ", "ಹಣ"],
+      "answer": {
+        "en": "We accept cash, UPI and cards. For larger treatments, ask us about paying in stages.",
+        "kn": "ನಗದು, UPI ಮತ್ತು ಕಾರ್ಡ್ ಸ್ವೀಕರಿಸುತ್ತೇವೆ. ದೊಡ್ಡ ಚಿಕಿತ್ಸೆಗಳಿಗೆ ಹಂತ ಹಂತವಾಗಿ ಪಾವತಿಸುವ ಬಗ್ಗೆ ಕೇಳಿ."
+      },
+      "actions": ["whatsapp"]
+    },
+    {
+      "id": "insurance",
+      "keywords": ["insurance", "claim", "reimbursement", "policy", "mediclaim", "ವಿಮೆ"],
+      "answer": {
+        "en": "Many policies don't cover routine dental care, but we provide detailed bills and notes so you can claim where your policy allows.",
+        "kn": "ಹಲವು ವಿಮೆಗಳು ಸಾಮಾನ್ಯ ದಂತ ಚಿಕಿತ್ಸೆ ಒಳಗೊಳ್ಳುವುದಿಲ್ಲ, ಆದರೆ ಪಾಲಿಸಿ ಅನುಮತಿಸಿದಲ್ಲಿ ಕ್ಲೇಮ್ ಮಾಡಲು ವಿವರವಾದ ಬಿಲ್ ನೀಡುತ್ತೇವೆ."
+      },
+      "actions": ["whatsapp"]
+    },
+    {
+      "id": "contact",
+      "keywords": ["phone", "number", "call", "contact", "mobile", "whatsapp", "ಫೋನ್", "ಕರೆ", "ಸಂಖ್ಯೆ", "ಸಂಪರ್ಕ"],
+      "answer": {
+        "en": "You can call or WhatsApp us on {phone}.",
+        "kn": "{phone} ಗೆ ಕರೆ ಅಥವಾ ವಾಟ್ಸಾಪ್ ಮಾಡಿ."
+      },
+      "actions": ["call", "whatsapp"]
+    },
+    {
+      "id": "greeting",
+      "keywords": ["hi", "hello", "hey", "namaste", "namaskara", "ನಮಸ್ಕಾರ", "ಹಲೋ"],
+      "answer": {
+        "en": "Hello! 😊 Ask me about timings, location, treatments, costs or booking.",
+        "kn": "ನಮಸ್ಕಾರ! 😊 ಸಮಯ, ಸ್ಥಳ, ಚಿಕಿತ್ಸೆ, ಖರ್ಚು ಅಥವಾ ಬುಕಿಂಗ್ ಬಗ್ಗೆ ಕೇಳಿ."
+      },
+      "actions": []
+    },
+    {
+      "id": "thanks",
+      "keywords": ["thanks", "thank you", "thank", "ok", "okay", "dhanyavada", "ಧನ್ಯವಾದ"],
+      "answer": {
+        "en": "You're welcome! Wishing you a healthy smile. 😊",
+        "kn": "ಸ್ವಾಗತ! ನಿಮಗೆ ಆರೋಗ್ಯಕರ ನಗು ಹಾರೈಸುತ್ತೇವೆ. 😊"
+      },
+      "actions": []
+    }
+  ]
+}

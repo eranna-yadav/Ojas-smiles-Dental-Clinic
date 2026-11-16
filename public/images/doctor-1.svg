@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Doctor portrait">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D5F5EE"/><stop offset="1" stop-color="#8FDCCB"/></linearGradient></defs>
+<rect width="800" height="1000" fill="url(#g)"/>
+<circle cx="230.25784851587176" cy="253.46375386311942" r="256" fill="#fff" opacity=".35"/>
+<circle cx="561.8390242808059" cy="670.8225728906757" r="336" fill="#fff" opacity=".25"/>
+<g transform="translate(312 350.4) scale(1.76)"><path d="M50 10C30 10 20 20 20 38c0 17 8 24 10 42 2 12 8 15 11 5 3-11 5-19 9-19s6 8 9 19c3 10 9 7 11-5 2-18 10-25 10-42C80 20 70 10 50 10Z" fill="#fff" stroke="#115E59" stroke-opacity=".5" stroke-width="3"/></g>
+<text x="50%" y="596.8" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="36" font-weight="700" fill="#115E59">Doctor portrait</text>
+<text x="50%" y="650.8" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="25" fill="#115E59" opacity=".7">TODO: replace with real photo</text>
+</svg>

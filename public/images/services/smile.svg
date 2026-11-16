@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Service photo: smile">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D5F5EE"/><stop offset="1" stop-color="#8FDCCB"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#g)"/>
+<circle cx="252.42887836247252" cy="275.8237270560683" r="256" fill="#fff" opacity=".35"/>
+<circle cx="1076.7135386989644" cy="664.2943521253599" r="336" fill="#fff" opacity=".25"/>
+<g transform="translate(512 250.4) scale(1.76)"><path d="M50 10C30 10 20 20 20 38c0 17 8 24 10 42 2 12 8 15 11 5 3-11 5-19 9-19s6 8 9 19c3 10 9 7 11-5 2-18 10-25 10-42C80 20 70 10 50 10Z" fill="#fff" stroke="#115E59" stroke-opacity=".5" stroke-width="3"/></g>
+<text x="50%" y="496.8" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="36" font-weight="700" fill="#115E59">Service photo: smile</text>
+<text x="50%" y="550.8" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="25" fill="#115E59" opacity=".7">TODO: replace with real photo</text>
+</svg>

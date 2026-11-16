@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1120" viewBox="0 0 960 1120" role="img" aria-label="Hero photo: smiling patient / doctor">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D5F5EE"/><stop offset="1" stop-color="#8FDCCB"/></linearGradient></defs>
+<rect width="960" height="1120" fill="url(#g)"/>
+<circle cx="263.00795709106757" cy="436.5138009486317" r="307.2" fill="#fff" opacity=".35"/>
+<circle cx="855.848613068917" cy="871.3617326886531" r="403.2" fill="#fff" opacity=".25"/>
+<g transform="translate(374.4 380.48) scale(2.112)"><path d="M50 10C30 10 20 20 20 38c0 17 8 24 10 42 2 12 8 15 11 5 3-11 5-19 9-19s6 8 9 19c3 10 9 7 11-5 2-18 10-25 10-42C80 20 70 10 50 10Z" fill="#fff" stroke="#115E59" stroke-opacity=".5" stroke-width="3"/></g>
+<text x="50%" y="676.16" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="43" font-weight="700" fill="#115E59">Hero photo: smiling patient / doctor</text>
+<text x="50%" y="740.66" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="30" fill="#115E59" opacity=".7">TODO: replace with real photo</text>
+</svg>

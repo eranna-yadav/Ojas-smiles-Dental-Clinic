@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Treatment room">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D5F5EE"/><stop offset="1" stop-color="#8FDCCB"/></linearGradient></defs>
+<rect width="1200" height="900" fill="url(#g)"/>
+<circle cx="271.7003351600061" cy="189.38738814452134" r="288" fill="#fff" opacity=".35"/>
+<circle cx="849.9990024363758" cy="649.4576207958613" r="378" fill="#fff" opacity=".25"/>
+<g transform="translate(501 281.70000000000005) scale(1.98)"><path d="M50 10C30 10 20 20 20 38c0 17 8 24 10 42 2 12 8 15 11 5 3-11 5-19 9-19s6 8 9 19c3 10 9 7 11-5 2-18 10-25 10-42C80 20 70 10 50 10Z" fill="#fff" stroke="#115E59" stroke-opacity=".5" stroke-width="3"/></g>
+<text x="50%" y="558.9" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="41" font-weight="700" fill="#115E59">Treatment room</text>
+<text x="50%" y="620.4" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="29" fill="#115E59" opacity=".7">TODO: replace with real photo</text>
+</svg>

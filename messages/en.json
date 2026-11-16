@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "homeTitle": "Ojas Smiles Dental Clinic | Best Dentist in Hassan, Karnataka",
+    "homeDescription": "Trusted dental clinic in Hassan for families and working professionals. Root canal, dental implants, braces, whitening and kids' dentistry. Open daily till 9 PM. Rated 5.0 on Google.",
+    "servicesTitle": "Dental Treatments in Hassan | Ojas Smiles Dental Clinic",
+    "servicesDescription": "Explore all dental treatments at Ojas Smiles, Hassan — check-ups, fillings, root canal, implants, crowns, dentures, braces, whitening, gum care, kids' dentistry and emergencies.",
+    "serviceTitle": "{service} in Hassan | Ojas Smiles Dental Clinic",
+    "blogTitle": "Smile Tips & Dental Care Articles | Ojas Smiles Hassan",
+    "blogDescription": "Simple, practical dental care tips from Ojas Smiles Dental Clinic, Hassan — brushing, root canal myths, and your child's first dental visit.",
+    "privacyTitle": "Privacy Policy | Ojas Smiles Dental Clinic",
+    "privacyDescription": "How Ojas Smiles Dental Clinic, Hassan handles the information you share through this website.",
+    "disclaimerTitle": "Medical Disclaimer | Ojas Smiles Dental Clinic",
+    "disclaimerDescription": "Information on this website is for general education and is not a substitute for a dental examination.",
+    "notFoundTitle": "Page not found | Ojas Smiles Dental Clinic"
+  },
+  "common": {
+    "callNow": "Call Now",
+    "bookAppointment": "Book Appointment",
+    "whatsapp": "WhatsApp",
+    "chatOnWhatsapp": "Chat on WhatsApp",
+    "getDirections": "Get Directions",
+    "learnMore": "Learn more",
+    "readMore": "Read article",
+    "viewAll": "View all",
+    "backHome": "Back to home",
+    "skipToContent": "Skip to main content",
+    "openNow": "Open now",
+    "closedNow": "Closed now",
+    "closesAt": "Closes {time}",
+    "opensAt": "Opens {time}",
+    "opensTomorrow": "Opens tomorrow {time}",
+    "todo": "To be added",
+    "placeholderNotice": "Placeholder image",
+    "minRead": "{n} min read",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "menu": "Menu",
+    "language": "Language",
+    "switchTo": "ಕನ್ನಡ",
+    "switchToLabel": "Switch to Kannada",
+    "whatsappGreeting": "Hello Ojas Smiles Dental Clinic! I would like to know more about your dental services."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "doctors": "Doctors",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "blog": "Smile Tips",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Dental clinic in Hassan",
+    "title": "Healthy smiles.",
+    "titleAccent": "Confident you.",
+    "subtitle": "Trusted, gentle dental care in Hassan for your whole family — from your child's first check-up to implants and smile makeovers.",
+    "badgeRating": "5.0 on Google",
+    "badgeWomen": "Women-owned clinic",
+    "badgeHours": "Open daily till 9 PM",
+    "imageAlt": "Smiling patient at Ojas Smiles Dental Clinic",
+    "floatingCardTitle": "Painless care",
+    "floatingCardText": "Gentle treatment, explained step by step"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Dental care that feels personal",
+    "story": "Ojas Smiles Dental Clinic was started with a simple belief: every family in Hassan deserves dental care that is modern, honest and kind. We take time to listen, explain your options in your language, and treat you the way we would treat our own family.",
+    "mission": "Our mission is to make good dental health easy — with clear advice, fair pricing and timings that fit around school and work.",
+    "womenOwned": "Proudly women-owned and led.",
+    "imageAlt": "Inside Ojas Smiles Dental Clinic",
+    "whyTitle": "Why families choose us",
+    "why": {
+      "equipment": { "title": "Modern equipment", "text": "Up-to-date tools for accurate diagnosis and comfortable treatment." },
+      "sterilization": { "title": "Strict sterilization", "text": "Every instrument is cleaned and sterilized to hospital-grade standards." },
+      "painless": { "title": "Painless treatment", "text": "Gentle techniques and local anaesthesia for a calm, pain-free visit." },
+      "affordable": { "title": "Fair, clear pricing", "text": "Transparent estimates before treatment — no surprises on the bill." },
+      "family": { "title": "Family-friendly", "text": "Care for kids, parents and grandparents, all under one roof." },
+      "timings": { "title": "Evening timings", "text": "Open every day until 9 PM, so you never miss work or school." }
+    }
+  },
+  "doctors": {
+    "eyebrow": "Meet the team",
+    "title": "Your dentist",
+    "subtitle": "Experienced, caring and committed to explaining every step.",
+    "experience": "{n}+ years experience",
+    "experienceTodo": "Experience: to be added",
+    "specialties": "Special interests"
+  },
+  "services": {
+    "eyebrow": "Treatments",
+    "title": "Complete dental care under one roof",
+    "subtitle": "From routine check-ups to advanced implants — explained clearly, done gently.",
+    "allTitle": "All dental treatments",
+    "allSubtitle": "Choose a treatment to learn what it involves, who needs it, and how recovery works.",
+    "whatIs": "What is it?",
+    "whoNeeds": "Who needs it?",
+    "procedure": "How the procedure works",
+    "recovery": "Recovery & aftercare tips",
+    "faqs": "Frequently asked questions",
+    "otherServices": "Other treatments",
+    "ctaTitle": "Ready to book your visit?",
+    "ctaText": "Send us your details and we'll confirm your appointment on WhatsApp.",
+    "step": "Step {n}"
+  },
+  "emergency": {
+    "title": "Tooth pain? Call us now.",
+    "text": "Severe pain, swelling, a broken or knocked-out tooth — we'll help you as quickly as possible.",
+    "cta": "Call {phone}"
+  },
+  "beforeAfter": {
+    "eyebrow": "Results",
+    "title": "Before & after",
+    "subtitle": "Drag the slider to compare. Real patient photos will be shared only with their consent.",
+    "before": "Before",
+    "after": "After",
+    "sliderLabel": "Comparison slider for {title}",
+    "notice": "Placeholder images — not real patient results"
+  },
+  "gallery": {
+    "eyebrow": "Inside the clinic",
+    "title": "A calm, clean space",
+    "subtitle": "Take a look around our reception, treatment rooms and equipment.",
+    "open": "Open image: {alt}",
+    "counter": "{i} of {n}"
+  },
+  "reviews": {
+    "eyebrow": "Patient reviews",
+    "title": "Rated 5.0 on Google",
+    "subtitle": "We're grateful to every patient who shares their experience.",
+    "seeAll": "See all reviews on Google",
+    "write": "Write a review",
+    "placeholder": "Real Google review to be added here with the patient's permission.",
+    "starsLabel": "{n} out of 5 stars"
+  },
+  "booking": {
+    "eyebrow": "Appointments",
+    "title": "Book your appointment",
+    "subtitle": "Fill in your details and we'll open WhatsApp with your request ready to send. We'll confirm your slot shortly.",
+    "name": "Full name",
+    "namePlaceholder": "Your name",
+    "phone": "Phone number",
+    "phonePlaceholder": "10-digit mobile number",
+    "date": "Preferred date",
+    "time": "Preferred time",
+    "timePlaceholder": "Select a time slot",
+    "service": "Treatment",
+    "servicePlaceholder": "Select a treatment",
+    "serviceNotSure": "Not sure / General consultation",
+    "message": "Message (optional)",
+    "messagePlaceholder": "Tell us about your concern, e.g. pain in lower left tooth",
+    "submit": "Send on WhatsApp",
+    "privacyNote": "Your details are sent only to the clinic on WhatsApp. We don't store them on this website.",
+    "errors": {
+      "name": "Please enter your name (at least 2 letters).",
+      "phone": "Please enter a valid 10-digit Indian mobile number.",
+      "date": "Please choose a date from today onwards.",
+      "dateFar": "Please choose a date within the next 3 months.",
+      "time": "Please pick a time slot.",
+      "service": "Please choose a treatment, or select 'Not sure'.",
+      "summary": "Please fix the highlighted fields."
+    },
+    "successTitle": "Almost done!",
+    "successText": "WhatsApp should have opened with your appointment request. Just press send — our team will confirm your slot soon.",
+    "successRetry": "WhatsApp didn't open? Tap here",
+    "successAnother": "Book another appointment",
+    "waIntro": "New appointment request (via website)",
+    "waName": "Name",
+    "waPhone": "Phone",
+    "waDate": "Preferred date",
+    "waTime": "Preferred time",
+    "waService": "Treatment",
+    "waMessage": "Message"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions patients often ask",
+    "subtitle": "Can't find your answer? Message us on WhatsApp — we're happy to help."
+  },
+  "contact": {
+    "eyebrow": "Visit us",
+    "title": "Find us on MG Road, Hassan",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Clinic hours",
+    "email": "Email",
+    "mapTitle": "Map showing the location of Ojas Smiles Dental Clinic",
+    "landmark": "Beside Neha's Saloon and Academy",
+    "closed": "Closed"
+  },
+  "blog": {
+    "eyebrow": "Smile tips",
+    "title": "Simple tips for healthier teeth",
+    "subtitle": "Short, practical reads from our team.",
+    "back": "All articles",
+    "disclaimer": "This article is general information, not a diagnosis. Please visit a dentist for advice about your own teeth."
+  },
+  "footer": {
+    "about": "Gentle, modern dental care for families and working professionals in Hassan.",
+    "quickLinks": "Quick links",
+    "services": "Treatments",
+    "contact": "Contact",
+    "hours": "Hours",
+    "privacy": "Privacy Policy",
+    "disclaimer": "Medical Disclaimer",
+    "rights": "All rights reserved.",
+    "credit": "Website by",
+    "follow": "Follow us"
+  },
+  "chat": {
+    "open": "Open chat assistant",
+    "close": "Close chat",
+    "title": "Ojas Smiles Assistant",
+    "subtitle": "Quick answers, usually instant",
+    "greeting": "Hi! 👋 I can help with timings, location, treatments and appointments. What would you like to know?",
+    "inputPlaceholder": "Type your question…",
+    "send": "Send",
+    "chips": {
+      "timings": "Timings",
+      "location": "Location",
+      "services": "Services",
+      "book": "Book Appointment",
+      "emergency": "Emergency"
+    },
+    "fallback": "I'm not sure about that one. Our team can answer you directly on WhatsApp.",
+    "fallbackCta": "Ask on WhatsApp",
+    "bookReply": "Great! You can fill the booking form and we'll confirm on WhatsApp.",
+    "bookCta": "Open booking form",
+    "disclaimer": "Automated assistant. Not medical advice."
+  },
+  "legal": {
+    "lastUpdated": "Last updated"
+  },
+  "notFound": {
+    "title": "This page seems to be missing",
+    "text": "The page you're looking for may have moved. Let's get you back to a healthy smile."
+  },
+  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  "daysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+  "everyDay": "Every day"
+}
