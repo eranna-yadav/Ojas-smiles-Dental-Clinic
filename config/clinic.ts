@@ -158,7 +158,7 @@ export const clinic = {
   // ---- Announcement strip (top of every page) -------------------------------
   // TODO: replace with real offers from the client. Set enabled:false to hide.
   offers: {
-    enabled: true,
+    enabled: false,
     items: [
       {
         en: "Now booking family check-ups — evening slots till 9 PM, every day",
