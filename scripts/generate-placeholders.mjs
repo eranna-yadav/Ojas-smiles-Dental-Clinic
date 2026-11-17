@@ -38,7 +38,6 @@ function svg({ w, h, label, sub = "TODO: replace with real photo", palette = "mi
 }
 
 const files = {
-  "hero.svg": { w: 960, h: 1120, label: "Hero photo: smiling patient / doctor", palette: "teal", seed: 2 },
   "about.svg": { w: 1200, h: 900, label: "Clinic interior photo", seed: 3 },
   "doctor-1.svg": { w: 800, h: 1000, label: "Doctor portrait", palette: "teal", seed: 4 },
   "og-default.svg": { w: 1200, h: 630, label: "Ojas Smiles Dental Clinic", sub: "Hassan, Karnataka", seed: 5 },

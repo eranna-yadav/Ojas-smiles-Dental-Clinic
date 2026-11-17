@@ -82,12 +82,12 @@ export function Hero({ locale, t }: { locale: Locale; t: Dictionary }) {
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
           <div aria-hidden className="absolute inset-4 -z-10 rotate-6 rounded-[3rem] bg-gradient-to-br from-brand-200 to-accent-200" />
           <div className="relative overflow-hidden rounded-[2.5rem] shadow-lift ring-8 ring-white">
-            {/* TODO: replace /images/hero.svg with a real clinic photo (portrait ~ 960×1120) */}
+            {/* Hero photo: public/images/hero.webp (portrait, 1122×1402) */}
             <SmartImage
-              src="/images/hero.svg"
+              src="/images/hero.webp"
               alt={t.hero.imageAlt}
-              width={960}
-              height={1120}
+              width={1122}
+              height={1402}
               priority
               fetchPriority="high"
               sizes="(min-width: 1024px) 40vw, 90vw"

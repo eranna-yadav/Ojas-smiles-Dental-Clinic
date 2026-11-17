@@ -93,7 +93,7 @@ Next.js automatically resizes and converts real photos to AVIF/WebP.
 
 | Image | File | Shape |
 | --- | --- | --- |
-| Hero | `components/sections/Hero.tsx` → `/images/hero.svg` | Portrait ~ 960×1120 |
+| Hero | `components/sections/Hero.tsx` → `/images/hero.webp` (done) | Portrait ~ 1122×1402 |
 | About | `components/sections/About.tsx` → `/images/about.svg` | 4:3 |
 | Doctor | `config/clinic.ts` → `doctors[].image` | Portrait 4:5 |
 | Gallery | `config/clinic.ts` → `gallery` | 4:3 |
@@ -132,7 +132,6 @@ Every push to the main branch redeploys automatically. Pull requests get preview
 - [ ] Doctor details: full name, qualifications (BDS/MDS, college), registration no. (optional), years of experience, special interests, short bio
 - [ ] Doctor portrait photo
 - [ ] Clinic photos: exterior/signboard, reception, treatment room, equipment, sterilization area, kids' corner
-- [ ] Hero photo (doctor with patient, or a smiling patient, with consent)
 - [ ] Domain name (and set `NEXT_PUBLIC_SITE_URL`)
 - [ ] Native Kannada speaker to proofread `messages/kn.json`, `content/*.ts` and `data/dental-faq.json`
 - [ ] Dentist to review treatment pages (`content/services.ts`) and articles (`content/blog.ts`)

@@ -60,7 +60,7 @@ export function Header() {
       )}
     >
       <div className="container-x flex h-16 items-center justify-between gap-3 sm:h-20">
-        <Link href={href(locale)} className="flex min-w-0 items-center gap-2.5">
+        <Link href={href(locale)} className="flex min-w-0 shrink-0 items-center gap-2.5">
           <ToothMark className="h-10 w-10 shrink-0 sm:h-11 sm:w-11" />
           <span className="min-w-0 leading-tight">
             <span className="block truncate text-base font-extrabold tracking-tight text-brand-900 sm:text-lg">
@@ -78,7 +78,7 @@ export function Header() {
               <li key={n.to}>
                 <Link
                   href={n.to}
-                  className="rounded-full px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-brand-50 hover:text-brand-800"
+                  className="rounded-full px-2.5 py-2 text-sm font-medium whitespace-nowrap text-slate-700 2xl:px-3 transition hover:bg-brand-50 hover:text-brand-800"
                 >
                   {n.label}
                 </Link>
@@ -89,9 +89,10 @@ export function Header() {
 
         <div className="flex items-center gap-2">
           <LanguageToggle className="hidden sm:inline-flex" />
-          <a href={telUrl} className={btn("outline", "md", "hidden lg:inline-flex")}>
+          {/* Full "Call Now" on tablets/small laptops; icon-only when the full nav is shown */}
+          <a href={telUrl} aria-label={`${t.common.callNow} ${clinic.phone.display}`} className={btn("outline", "md", "hidden lg:inline-flex xl:w-11 xl:px-0")}>
             <Phone className="h-4 w-4" aria-hidden />
-            {t.common.callNow}
+            <span className="xl:sr-only">{t.common.callNow}</span>
           </a>
           <Link href={href(locale, "#book")} className={btn("primary", "md", "hidden sm:inline-flex")}>
             <CalendarCheck className="h-4 w-4" aria-hidden />
